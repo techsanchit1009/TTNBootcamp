@@ -1,0 +1,123 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: auto;
+    height: 50px;
+    background-color: lightblue;
+}
+
+h1 {
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+/* nav h1:hover {
+    background-color: brown;
+    transition: 0.5s;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 30px;
+    cursor: pointer;
+} */
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+main {
+    margin:10px 30%;
+}
+
+.bug-form {
+    /* background-color: green; */
+    height: 110vh;
+    border-radius: 10px;
+
+    border: 1px solid grey;
+}
+
+.form-header {
+    color: white;
+    height: 70px;
+    /* border-radius: 5px; */
+    background-color: grey;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px 10px;
+}
+
+.form-area {
+    position : relative;
+    padding: 0px 10px;
+}
+
+form *:not([type="radio"]){
+    width: 95%;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+#version {
+    width: 20%;
+    padding: 5px 5px;
+    border-radius: 8px;
+    margin-left: 7px;
+}
+
+label {
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    margin: 5px 10px;
+}
+
+.license {
+    position: relative;
+}
+
+.form-end{
+    position : relative ;
+    background-color: rgb(170, 163, 163);
+    height: 50px;
+    top : 10px;
+    width:  100%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}   
+#btn {
+    background-color: rgb(54, 189, 106);
+    position : relative;
+    border-radius: 8px;
+    width : 70px;
+    float : right;
+    top : 15px;
+    right : 30px;
+    bottom: 15px;
+    font-size: 20px;
+    color: white;
+}

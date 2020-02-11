@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 13</title>
+    <link rel="stylesheet" href="./q12.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1>TO THE NEW</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quick Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    
+    <main>
+        <div class="bug-form">
+            <div class="form-header">
+                <h1>Bug Report</h1>
+            </div>
+            <br>
+            <div class="form-area">
+                <form>
+                    <label>Title:*</label>
+                    <br>
+                    <input type="text" required>
+                    <br>
+                    <label>Description:*</label>
+                    <br>
+                    <textarea rows="5" required> </textarea>
+                    <br>
+                    <label>Operating System:</label>
+                    <select name="OS">
+                        <option value="Windows 10">Windows 10</option>
+                        <option value="Mac OS X">Mac OS X</option>
+                        <option value="Linux OS">Linux OS</option>
+                    </select>
+                    <label>Product:*</label>
+                    <select name="Product">
+                        <option value="Windows Laptop">Windows Laptop</option>
+                        <option value="Android Device">Android Device</option>
+                        <option value="iOS Device">iOS Device</option>
+                    </select>
+                    <br>
+                    <label>Version:*</label>
+                    <br>
+                    <input id="version" type="number" required>
+                    <br>
+                    <label>License:</label>
+                    <br>
+                    <div class="license">
+                        <label>Free</label><input type="radio" name="license" value="free" >
+                        <label >Business</label><input type="radio" name="license" value="business">
+                    </div>
+                    <br>
+                    <label>Severity:</label>
+                        <select name="Severity">
+                            <option value="Critical">Critical</option>
+                            <option value="Major">Major</option>
+                            <option value="Moderate">Moderate</option>
+                            <option value="Minor">Minor</option>
+                        </select>
+                    <br>
+                    <label>Attachment:</label>
+                    <br>
+                    <input type="file">
+                    <br>
+                  
+                </form>
+            </div>
+            <div class="form-end">
+                <button id ="btn">Send</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

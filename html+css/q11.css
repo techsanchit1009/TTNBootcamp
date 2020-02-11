@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0px 50px;
+}
+
+.top-area{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: auto; 
+    padding: 1px 50px;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.72);
+    border-radius: 10px;
+}
+
+nav a{
+    color: white;
+    float: left;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.center-area {
+    background-color: white;
+    height: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.banner {
+    position: relative; 
+    height: 360px; 
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color:white;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.gallery div {
+    margin: 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 50px;
+    color: white;
+    position: relative;
+}
+
+footer p{
+    position: absolute;
+}
