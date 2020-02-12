@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.top-area {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: auto; 
+    padding: 0 50px;
+}
+nav {
+    border-right: 10px;
+}
+
+.nav-item {
+    margin: 0 7px;
+}
+
+.nav-item:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.middle-area {
+    background-color: white;
+    color: rgb(54, 52, 52);
+    height: auto; 
+}
+
+.banner {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 360px;
+}
+
+.jumbotron {
+    padding: 1rem;
+}
+
+.banner p {
+    padding: 15% 45%;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 315px;
+    color: white;
+}
+
+.card p {
+    padding: 80% 20%;
+}
+
+.card-text em{
+    padding: 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+}
