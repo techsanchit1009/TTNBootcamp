@@ -1,0 +1,181 @@
+body{
+  font-family: 'Sriracha', cursive;
+  margin: 0;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+nav{
+  /* background-color: rgb(155, 93, 77); */
+  background: url('https://static.vecteezy.com/system/resources/previews/000/092/250/original/free-maroon-wooden-background-vector.jpg');
+  padding: 5px 20px;
+  margin: 0;
+  top: 0;
+  /* min-height: 10vh; */
+}
+
+.btn-login {
+  position: relative;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: transparent;
+  margin: 10px 30px;
+  font-family: 'Sriracha';
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  padding: 5px 20px;
+}
+
+.btn-login:hover{
+  /* border: none; */
+  background-color: rgb(59, 92, 85);
+  transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo:hover{
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  border-radius: 30%;
+
+}
+
+li{
+  padding: 10px 10px;
+}
+
+
+aside{
+  height: 100%;
+  width: 160px;
+  top: 70px;
+  position: fixed;
+  left: 0;
+  /* background-color: rgb(56, 58, 55); */
+  background: url('https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045379__340.jpg');
+  background-size: cover;
+  /* background-position: 10%; */
+  /* background-repeat: no-repeat; */
+}
+
+aside a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #a39d9d;
+  display: block;
+  text-align: center;
+}
+
+aside a:hover{
+  background-color: lightgray;
+  width: 100%;
+  color: black;
+  transition: 0.5s;
+}
+
+main{
+  position: absolute;
+  top: 15%;
+  left: 180px;
+  width: 80%;
+  padding: 10px 5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+
+.flex-container span{
+  position: relative;
+  top: 45%;
+  left: 30%;
+}
+
+.flex-container section{
+  margin: 10px 40px;
+}
+
+.small-img{
+  height: 150px; 
+  width:150px;
+  background-color: black;
+  border: 10px grey groove;
+}
+
+.image-area{
+  position: relative;
+  display : flex;
+  left: 3%;
+}
+
+article{
+  padding: 5px 10px;  
+  /* margin-left : 50px; */
+}
+
+img{
+  flex-shrink: 0;
+}
+article p{
+  display: inline-block;
+  text-align: justify;
+  line-height: 2.4em;
+}
+
+.form-area{
+  padding: 30px;
+}
+
+input {
+  display: inline-block;
+  /* width: 200px; */
+  width: 40%;
+  height: 20px;
+}
+
+
+.btn-submit{
+  background-color: rgb(48, 145, 48);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  /* padding: 5px 20px; */
+}
+
+.btn-submit:hover{
+  background-color: rgb(48, 100, 48);
+  transition: 0.5s;
+}
+
+th{
+  background-color: rgb(155, 93, 77);
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+

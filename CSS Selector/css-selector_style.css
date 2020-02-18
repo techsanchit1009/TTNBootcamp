@@ -1,0 +1,41 @@
+#font-area>p:nth-child(1){
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+#font-area>p:nth-child(2){
+  font-weight: 600;
+}
+
+#font-area>p:nth-child(3){
+  font-style: italic;
+}
+
+#font-area>p:nth-child(4){
+  font: italic bold 18px/30px Georgia, serif;
+}
+
+#bg-area{
+  background: url('https://source.unsplash.com/WLUHO9A_xik/1600x900');
+  background-position: 50%;
+}
+
+#pseudo-area ul>li:nth-child(1)::after{
+  content: ' (~content added using ::after)';
+}
+
+#pseudo-area ul>li:last-child{
+  color: red;
+}
+
+#pseudo-area ul>li:nth-child(odd){
+  font-variant: small-caps;
+}
+
+#combinators p+h4{
+  background-color: grey;
+}
+
+#attr input[type='text']{
+  background-color: lightgreen;
+}
