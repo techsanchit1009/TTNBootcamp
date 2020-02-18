@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <script>
-    var str = prompt('Enter a String: ');
-    var flag = 1;
-    for(var i=0; i<str.length/2; i++){
-        if(str[i] != str[str.length - 1 - i]){
-            alert(`String ${str} is not palindrome`);
-            flag = 0;
-            break;
-        } 
-    }
-    if(flag){
-        alert(`String ${str} is palindrome`);
+    function checkPalindrome() {
+        var str = document.getElementById('string').value;
+        var flag = 1;
+        for (var i = 0; i < str.length / 2; i++) {
+            if (str[i] != str[str.length - 1 - i]) {
+            document.getElementById('result').innerHTML=`String ${str} is not a palindrome`;
+                
+                flag = 0;
+                break;
+            }
+        }
+        if (flag) {
+            document.getElementById('result').innerHTML=`String ${str} is a palindrome`;
+        }
     }
 </script>
+
 <body>
-    
+    <label for="string">Enter a string</label>
+    <input type="text" id="string" placeholder="Enter a string">
+    <button onclick="checkPalindrome()">Check Palindrome</button>
+    <p id="result"></p>
+
 </body>
+
 </html>

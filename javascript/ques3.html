@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <script>
-    const pi = 3.14;
-    var rad = prompt('Enter radius of cicle');
-    var area = pi * rad * rad;
-    alert(`Area of circle with radius ${rad} is: `+ area);
+    function calcArea() {
+        const pi = 3.14;
+        var rad = document.getElementById('radius').value;
+        var area = pi * rad * rad;
+        document.getElementById('result').innerHTML=`Area of circle with radius ${rad} is: ${area}`;
+    }
 </script>
+
 <body>
-    
+    <input type="number" id="radius" placeholder="Enter radius of circle">
+    <button onclick="calcArea()">Find Area</button>
+    <p id="result"></p>
 </body>
+
 </html>

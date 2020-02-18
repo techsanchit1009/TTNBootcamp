@@ -6,13 +6,32 @@
     <title>Document</title>
 </head>
 <script>
-    var amount = prompt('Enter amount');
-    var rate = prompt('Enter rate of interest');
-    var time = prompt('Enter time in years');
-    var si = (amount * rate * time)/100;
-    alert('Simple interest is: ' + si);
+  function Calculate(){
+        var amount = parseFloat(document.getElementById('amount').value);
+        var rate = parseFloat(document.getElementById('rate').value);
+        var time = parseFloat(document.getElementById('time').value);
+        var si = (amount * rate * time)/100;
+        document.getElementById('result').innerHTML='Simple Interest: '+ si;
+  }
 </script>
+<style>
+    input{
+        display: block;
+    }
+</style>
 <body>
+    <label for="amount">Amount: </label>
+    <input type="number" id="amount" placeholder="Enter amount">
+    <br>
+    <label for="rate">Rate: </label>
+    <input type="number" id="rate" placeholder="Enter rate of interest">
+    <br>
+    <label for="time">Time(in years): </label>
+    <input type="number" id="time" placeholder="Enter time">
+    <br>
+    <br>
+    <button onclick="Calculate()">Calculate Simple Interest</button>
+    <p id="result"></p>
     
 </body>
 </html>
