@@ -195,7 +195,7 @@ i:hover{
 }
 
 .banner{
-  background: url('/images/banner-img.jpeg');
+  background: url('../images/banner-img.jpeg');
   width: 100%;
   height: 550px;
   background-position: 50% 30%;
