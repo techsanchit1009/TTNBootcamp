@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+</head>
+<body>
+  <header>
+    <div class="center-content">
+      <div class="container">
+
+        <!-- ---------------Navbar Area---------- -->
+        <div class="navbar">
+          <div class="logo-area">
+            <p>Responsive Layout</p>
+          </div>
+          <div class="navbar-menu">
+            <ul>
+              <li>Home</li>
+              <li>Generic</li>
+              <li>Elements</li>
+              <li id="hamburger-btn" onclick="showMenu()"><i class="fas fa-bars"></i></li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <!-- ----------------------------------------- -->
+
+        <!-- ------------ Center Content --------------------- -->
+        <div class="welcome-area">
+          <h1>Welcome</h1>
+          <div class="center-buttons-area">
+
+            <div class="car-btn-area">
+              <i class="fas fa-car"></i>
+              <p>Travel</p>
+              <span>Choose a ride</span>
+            </div>
+
+            <div class="gallery-btn-area">
+              <i class="fas fa-camera"></i>
+              <p>Gallery</p>
+              <span>Choose photos</span>
+            </div>
+
+            <div class="clearfix"></div>
+          </div>
+          <div class="button-area">
+            <button>GET STARTED</button>
+          </div>
+        </div>
+        <!-- ---------------------------------------- -->
+        
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card-area">
+        <div class="card">
+          <img src="./images/mobile.jpeg" alt="mobile-camera">
+            <div class="card-head">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, dignissimos. Fugiat natus nisi eveniet possimus et molestias architecto alias, iusto provident modi illo non sapiente.</p>
+            </div>
+            <div class="button-area">
+              <button>LEARN MORE</button>
+            </div>
+        </div>
+        <div class="card">
+          <img src="./images/camera.jpeg" alt="camera-image">
+            <div class="card-head">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus ut pariatur ea aut illum, blanditiis dolorum quas eum mollitia, non architecto, dolor laborum huj dsa dsad dsa voluptatibus!</p>
+            </div>
+            <div class="button-area">
+              <button>LEARN MORE</button>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </main>
+
+  <aside id="side-menu">
+    <div class="aside-menu">
+      <span onclick="closeMenu()">&times;</span>
+      <ul>
+        <li>Home</li>
+        <li>Generic</li>
+        <li>Elements</li>
+      </ul>
+    </div>
+  </aside>
+
+  <script>
+    var sideMenu = document.getElementById('side-menu');
+
+    function showMenu(){
+      sideMenu.style.display="block";
+    }
+    function closeMenu(){
+      sideMenu.style.display = "none";
+    }
+
+  </script>
+  
+</body>
+</html>

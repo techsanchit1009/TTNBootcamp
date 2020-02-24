@@ -1,0 +1,61 @@
+.welcome-area h1{
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 6rem 0 0;
+}
+
+.car-btn-area{
+  float: none;
+  width: 100%;
+  padding: 0 3rem 0.8rem;
+  border: none;
+}
+
+.gallery-btn-area{
+  float: none;
+  padding: 0 3rem;
+  width: 100%;
+}
+
+
+.card-area{
+  padding: 1rem 0rem;
+}
+
+.card-head{
+  padding: 1rem;
+}
+
+.card{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+
+.card-head p{
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.card-content{
+  padding: 0;
+}
+
+.card-content p{
+  color: gray;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+
+.navbar .navbar-menu ul li{
+  display:none;
+}
+
+#hamburger-btn{
+  display: inline-block;
+}
+
+
