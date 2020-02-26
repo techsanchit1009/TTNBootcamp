@@ -2,14 +2,9 @@
   justify-content: center;
 }
 
-.nav-menu-items ul{
-  /* display: block; */
-  justify-content: center;
-}
 
 .nav-menu-items ul li{
   text-align: center;
-  /* display: block; */
   width: 100%;
 }
 
@@ -37,4 +32,40 @@
 
 .become-area .main-container{
   padding: 2rem 1rem;
+}
+
+.form-group{
+  flex: auto;
+}
+
+.form-group input,textarea{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+
+footer{
+  padding: 2rem 1rem;
+}
+
+footer .apply-btn{
+  margin-top: 1rem;
+}
+
+.footer-bottom{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom .left-item{
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.footer-bottom .right-item{
+  order: -1;
+  text-align: center;
+  width: 100%;
 }
