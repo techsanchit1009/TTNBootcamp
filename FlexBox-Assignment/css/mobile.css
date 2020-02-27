@@ -26,8 +26,16 @@
   align-self: stretch;
 }
 
+.video-player img{
+  height: 10rem;
+}
+
 .partners-list{
   margin: 2rem 1rem;
+}
+
+.partners-list .partner{
+  flex-basis: 50%;
 }
 
 .become-area .main-container{
