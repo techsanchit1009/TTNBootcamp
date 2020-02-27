@@ -1,0 +1,37 @@
+.nav-flex-container{
+  justify-content: center;
+}
+
+.logo-area{
+  margin-bottom: 0.8rem;
+}
+
+.nav-flex-container ul{
+  justify-content: center;
+}
+
+.nav-flex-container ul li:last-child{
+  margin-top: 0.5rem;
+}
+
+.main-flex-container{
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.main-text-area, .main-form-area{
+  flex: auto;
+  text-align: center;
+}
+.footer-flex-container{
+  padding: 1.5rem;
+}
+
+.footer-left-area{
+  flex-basis: 100%;
+  padding: 2rem 1rem;
+}
+
+.footer-testimonial{
+  flex: auto;
+}
