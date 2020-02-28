@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main-div{
+      width: 50vw;
+      height: 100vh;
+      margin: auto;
+      background-color: black;
+      position: relative;
+    }
+
+    .nest1{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20vh;
+      height: 20vh;
+      background-color: gray;
+    }
+
+    .nest2{
+      position: absolute;
+      top: 0;
+      left: 10%;
+      width: 10vh;
+      height: 10vh;
+      background-color: brown;
+    }
+    .nest3{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 5vh;
+      height: 5vh;
+      background-color: green;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-div">
+    <div class="nest1">
+      <div class="nest2">
+        <div class="nest3"></div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
