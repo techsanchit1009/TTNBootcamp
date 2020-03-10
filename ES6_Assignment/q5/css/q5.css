@@ -1,0 +1,26 @@
+div{
+  display: none; 
+}
+
+input{
+  display: block;
+  margin-bottom: 1.3rem;
+  margin-top: 0.2rem;
+}
+
+button{
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  margin-right: 5px;
+}
+
+button:hover , button:focus{
+  background-color: rgb(19, 104, 100);
+  transition: 0.5s;
+  cursor: pointer;
+}

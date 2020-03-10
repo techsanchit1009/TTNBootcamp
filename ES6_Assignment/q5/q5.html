@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/q5.css">
+</head>
+
+<body>
+  <button onclick="showCircle()">Area of Circle</button>
+  <button onclick="showRectangle()">Area of Rectangle</button>
+  <button onclick="showCylinder()">Area of Cylinder</button>
+
+  <div id="circle-block">
+    <h1>Area of circle</h1>
+    <form>
+      <label for="radius">Radius</label>
+      <input type="number" id="radius" placeholder="Radius of Cicle" required>
+      <button type="submit" onclick="calcCircle()">Calculate Area</button>
+    </form>
+  </div>
+
+  <div id="rect-block">
+    <h1>Area of Rectangle</h1>
+    <form>
+      <label for="length">Length</label>
+      <input type="number" id="length" placeholder="Length" required>
+      <label for="breadth">Breadth</label>
+      <input type="number" id="breadth" placeholder="Breadth" required>
+      <button type="submit" onclick="calcRectangle()">Calculate Area</button>
+    </form>
+  </div>
+
+  <div id="cylinder-block">
+    <h1>Area of Cylinder</h1>
+    <form>
+      <label for="radius">Radius</label>
+      <input type="number" id="radiusCylinder" placeholder="Radius" required>
+      <label for="height">Height</label>
+      <input type="number" id="height" placeholder="Height" required>
+      <button type="submit" onclick="calcCylinder()">Calculate Area</button>
+    </form>
+  </div>
+
+
+
+
+  <script src="./src/q5.js"></script>
+</body>
+
+</html>
