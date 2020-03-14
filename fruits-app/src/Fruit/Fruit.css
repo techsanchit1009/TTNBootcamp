@@ -1,0 +1,42 @@
+input{
+  font-size: 17px;
+  padding: 6px 8px;
+}
+
+.input-area{
+  padding: 10px;
+}
+
+.submit{
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  padding: 6px 8px;
+  margin: 0 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 550;
+  width: 5rem;
+}
+
+.edit{
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 6px 8px;
+  margin: 0 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 550;
+  /* width: 5rem; */
+}
+
+.submit:hover{
+  background-color: rgb(15, 88, 15);
+}
+
+.edit:hover{
+  background-color: rgb(20, 20, 128);
+}
